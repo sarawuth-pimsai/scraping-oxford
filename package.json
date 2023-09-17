@@ -1,0 +1,22 @@
+{
+  "name": "scraping-oxford",
+  "version": "1.0.0",
+  "description": "Scrapping Oxford 3000 and 5000 words",
+  "main": "index.js",
+  "repository": "https://github.com/sarawuth-pimsai/scraping-oxford.git",
+  "author": "Sarawuth Pimsai <sarawuth.pimsai@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev":"ts-node ./main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.4.2",
+    "puppeteer": "^21.2.1"
+  }
+}
